@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "NCC1701A";
+  src: url("../assets/fonts/ncc1701a.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.custom-text-stroke {
+  -webkit-text-fill-color: rgb(
+    0,
+    0,
+    0
+  ); /* This property is necessary for Safari/WebKit browsers */
+  -webkit-text-stroke-width: 1px; /* Width of the stroke */
+  -webkit-text-stroke-color: #fbbf24; /* Color of the stroke */
+}
