@@ -1,18 +1,18 @@
-import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Form from "../components/Form";
 import Contact from "../components/Contact";
+import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 
 function Home() {
   return (
     <div className="">
-      <Header />
-      <div className="flex">
+      <div className="flex flex-col lg:flex-row">
         <Hero />
         <Form />
       </div>
       <Contact />
+      <Testimonials />
       <Footer />
     </div>
   );

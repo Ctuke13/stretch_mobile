@@ -1,6 +1,6 @@
 import { useState } from "react";
 // import { FaChevronDown } from "react-icons/fa";
-import sm_stretch from "../assets/images/sm_stretch.jpg";
+import sm_stretch2 from "../assets/images/sm_stretch2.jpg";
 import "../styles/Hero.css";
 
 function Hero() {
@@ -12,10 +12,10 @@ function Hero() {
 
   return (
     <div
-      className="w-1/3 relative bg-cover bg-center"
-      style={{ backgroundImage: `url(${sm_stretch})` }}
+      className="w-1/2 relative bg-cover bg-center shadow-md"
+      style={{ backgroundImage: `url(${sm_stretch2})` }}
     >
-      <div className="absolute top-0 left-0 right-0 text-center text-white p-4">
+      <div className="absolute top-0 left-0 right-0 text-center text-white p-4 ">
         {/* <span className="text-yellow-300 text-5xl font-bold p-2 font-NCC1701A">
           Welcome to <br /> Stretch Mobile
         </span> */}

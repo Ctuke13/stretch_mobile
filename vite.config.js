@@ -8,6 +8,7 @@ import tailwindcss from "tailwindcss";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), reactRefresh(), swc, VitePWA(), tailwindcss()],
+  assetsInclude: ["**/*.jpg", "**/*.JPG", "**/*.png", "**/*.svg"],
   server: {
     port: 3000,
   },
